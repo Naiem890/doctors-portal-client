@@ -4,7 +4,7 @@ import doctorImage from "./../../assets/images/doctor-small.png";
 const AppointmentBanner = () => {
   return (
     <div
-      className="mt-64 "
+      className="mt-64"
       style={{
         background: `url(${appointmentBannerImage})`,
         backgroundPosition: " center",
