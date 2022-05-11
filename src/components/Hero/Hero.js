@@ -4,12 +4,12 @@ import heroImage from "./../../assets/images/chair.png";
 
 const Hero = () => {
   return (
-    <div className="relative -z-10 -mt-7">
+    <div className="">
       <div
-        className="hero    min-h-screen translate-y-7 "
+        className="hero min-h-screen"
         style={{
           backgroundImage: `url(${heroBgImage})`,
-          // backgroundPosition: "cent",
+          backgroundPosition: "left",
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
         }}

@@ -5,7 +5,7 @@ import { ReactComponent as PhoneIcon } from "./../../assets/icons/phone.svg";
 
 const Info = () => {
   return (
-    <div className="max-w-8xl px-6 mx-auto ">
+    <div className="max-w-8xl px-6 mx-auto -mt-7">
       <div className="grid grid-cols-3 gap-6">
         <div className="flex items-center gap-6 pr-6 pl-8 rounded-xl  py-[52px] text-white bg-gradient-to-r from-secondary to-primary">
           <div>

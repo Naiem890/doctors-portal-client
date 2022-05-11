@@ -4,15 +4,20 @@ import doctorImage from "./../../assets/images/doctor-small.png";
 const AppointmentBanner = () => {
   return (
     <div
-      className="mt-64 mb-40"
-      style={{ background: `url(${appointmentBannerImage})` }}
+      className="mt-64 "
+      style={{
+        background: `url(${appointmentBannerImage})`,
+        backgroundPosition: " center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
     >
       <div className="h-[533px] max-w-[1168px] mx-auto grid grid-cols-2 gap-7 items-center">
         <div className="relative h-full">
           <img
             src={doctorImage}
             alt=""
-            className="absolute max-w-[606px] bottom-0 left-0"
+            className="absolute max-w-[606px] bottom-0 right-0"
           />
         </div>
         <div>
