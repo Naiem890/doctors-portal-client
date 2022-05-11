@@ -4,13 +4,25 @@ import heroImage from "./../../assets/images/chair.png";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="relative -z-10 -mt-7">
       <div
-        className="hero min-h-screen "
-        style={{ backgroundImage: `url(${heroBgImage})` }}
+        className="hero    min-h-screen translate-y-7 "
+        style={{
+          backgroundImage: `url(${heroBgImage})`,
+          // backgroundPosition: "cent",
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+        }}
       >
-        <div className="hero-content flex-col gap-6 lg:flex-row-reverse">
-          <img src={heroImage} className="max-w-2xl rounded-lg " alt="chair" />
+        {/* <div className="hero-overlay"></div> */}
+        <div className="hero-content  flex-col gap-6 lg:flex-row-reverse">
+          <div>
+            <img
+              src={heroImage}
+              className="max-w-2xl rounded-lg "
+              alt="chair"
+            />
+          </div>
           <div>
             <h1 className="text-5xl font-bold">Your New Smile Starts Here</h1>
             <p className="py-6  text-base">
@@ -18,13 +30,7 @@ const Hero = () => {
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the
             </p>
-            <button
-              className="btn border-0 text-white"
-              style={{
-                background:
-                  "linear-gradient(90deg, #19D3AE -22.5%, #0FCFEC 120.83%)",
-              }}
-            >
+            <button className="btn border-0 text-white bg-gradient-to-r from-secondary to-primary cursor-pointer">
               Get Started
             </button>
           </div>

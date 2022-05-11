@@ -1,6 +1,10 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    container: {
+      // you can configure the container to be centered
+      center: true,
+    },
     extend: {},
   },
   daisyui: {
