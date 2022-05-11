@@ -27,8 +27,8 @@ const Reviews = () => {
               distribu to using Content here, content
             </p>
             <div className="flex gap-5 mt-9 items-center">
-              <div class="avatar ">
-                <div class="w-16 rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2">
+              <div className="avatar ">
+                <div className="w-16 rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2">
                   <img
                     src="https://api.lorem.space/image/face?hash=3174"
                     alt="person"
@@ -50,8 +50,8 @@ const Reviews = () => {
               distribu to using Content here, content
             </p>
             <div className="flex gap-5 mt-9 items-center">
-              <div class="avatar ">
-                <div class="w-16 rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2">
+              <div className="avatar ">
+                <div className="w-16 rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2">
                   <img
                     src="https://api.lorem.space/image/face?hash=3174"
                     alt="person"
@@ -73,8 +73,8 @@ const Reviews = () => {
               distribu to using Content here, content
             </p>
             <div className="flex gap-5 mt-9 items-center">
-              <div class="avatar ">
-                <div class="w-16 rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2">
+              <div className="avatar ">
+                <div className="w-16 rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2">
                   <img
                     src="https://api.lorem.space/image/face?hash=3174"
                     alt="person"

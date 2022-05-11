@@ -27,17 +27,17 @@ const ContactUs = () => {
             <input
               type="email"
               placeholder="Email Address"
-              class="input w-full mb-5"
+              className="input w-full mb-5"
             />
             <input
               type="text"
               placeholder="Subject"
-              class="input w-full mb-5 "
+              className="input w-full mb-5 "
             />
             <textarea
               type="text"
               placeholder="Your message"
-              class="textarea  w-full  mb-5"
+              className="textarea  w-full  mb-5"
             />
             <button
               type="submit"
